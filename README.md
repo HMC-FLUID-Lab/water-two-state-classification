@@ -9,7 +9,7 @@ parameters and classification labels, and the analysis code that produces every
 data figure panel and every Supporting-Information (SI) table of the paper.
 
 ```
-Water-Classification/   (branch doi-deposit)
+water-two-state-classification/
 ├── README.md            this file
 ├── LICENSE              MIT (code); data are released under CC BY 4.0
 ├── requirements.txt     Python packages and versions
@@ -32,14 +32,14 @@ Water-Classification/   (branch doi-deposit)
 ```
 
 **Where the pieces are.** The code, figure panels, tables and intermediate results
-are this repository (branch `doi-deposit`, archived on Zenodo, DOI: *to be added*).
+are this repository (archived on Zenodo, DOI: *to be added*).
 The data are a separate Zenodo record (DOI: *to be added*) with one archive per
 force field: `data_TIP4P-2005.zip`, `data_TIP5P.zip`, `data_SWM4-NDP.zip`. Unzip
 them in the repository root to create `data/`:
 
 ```bash
-git clone -b doi-deposit https://github.com/HMC-FLUID-Lab/Water-Classification.git
-cd Water-Classification
+git clone https://github.com/OhhMoo/water-two-state-classification.git
+cd water-two-state-classification
 unzip /path/to/data_TIP4P-2005.zip && unzip /path/to/data_TIP5P.zip && unzip /path/to/data_SWM4-NDP.zip
 ```
 

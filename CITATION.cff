@@ -3,7 +3,7 @@ message: "If you use this code or data, please cite the article and this deposit
 title: "Data and code for: Is Water a Mixture: Unsupervised Likelihood-Ratio Classification Reveals Two Water States That Merge Upon Increasing Temperature"
 version: "1.0"
 license: MIT
-repository-code: "https://github.com/HMC-FLUID-Lab/Water-Classification"
+repository-code: "https://github.com/OhhMoo/water-two-state-classification"
 keywords:
   - water
   - two-state model
